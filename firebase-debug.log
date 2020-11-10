@@ -1,0 +1,21 @@
+[debug] [2020-11-09T23:28:37.187Z] ----------------------------------------------------------------------
+[debug] [2020-11-09T23:28:37.192Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\space\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-09T23:28:37.193Z] CLI Version:   8.15.1
+[debug] [2020-11-09T23:28:37.193Z] Platform:      win32
+[debug] [2020-11-09T23:28:37.193Z] Node Version:  v12.18.3
+[debug] [2020-11-09T23:28:37.197Z] Time:          Mon Nov 09 2020 20:28:37 GMT-0300 (GMT-03:00)
+[debug] [2020-11-09T23:28:37.197Z] ----------------------------------------------------------------------
+[debug] [2020-11-09T23:28:37.198Z] 
+[debug] [2020-11-09T23:28:37.218Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-09T23:28:37.219Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\space\OneDrive\Escritorio\Curso\Preparación Certificación\demo-nasa
+
