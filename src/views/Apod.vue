@@ -4,7 +4,7 @@
       <v-row>
         <v-col md="6">
           <v-card
-            v-if="apod.media_type != 'video'"
+            v-if="apod.media_type !='video'"
             class="mx-auto"
             max-width="600"
           >
@@ -48,7 +48,7 @@ export default {
   data() {
     return {
       picker: new Date().toISOString().substr(0, 10),
-    };
+    }
   },
   computed: {
     ...mapState(["apod", "isLoading"]),
@@ -57,12 +57,12 @@ export default {
     ...mapActions(["getApod"]),
     queryApod() {
       this.getApod(this.picker);
-    },
+    }
   },
   created() {
     if (!this.apod.url) {
       this.getApod(this.picker);
     }
   },
-};
+}
 </script>
